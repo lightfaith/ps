@@ -1,3 +1,5 @@
+#Makefile for all cv01 projects, run the commands using 'make'.
+
 all: hello forker sort
 
 hello: hello.c Makefile

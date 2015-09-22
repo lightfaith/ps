@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<unistd.h>
 
+//Basic fork() examples
+
 void forkit()
 {
 	if(fork()==0)
