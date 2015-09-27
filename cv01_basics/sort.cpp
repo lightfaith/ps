@@ -52,7 +52,7 @@ void bubblesort(int* numbers, int id)
 //bubblesort defined range of numbers[] (different for each child process)
 {
 	int start=INTERVAL*id;
-	int end=(INTERVAL*(id+2)>ARRLEN)?ARRLEN:INTERVAL*(id+1);
+	int end=(id==CHILDCOUNT-1)?ARRLEN:INTERVAL*(id+1);
 	if(start>end)
 	{
 		printf("Process %d has an incorrect interval (%d - %d) defined!\n", id, start, end);
@@ -81,7 +81,7 @@ int *preparememory()
 	int generated[ARRLEN]={1,1,1,1,1,0};
 	f = open(MEMFILE, O_RDWR | O_CREAT | O_TRUNC, (mode_t)0600);
 	for(int i=0; i<ARRLEN; i++)
-		generated[i]=rand()%ARRLEN;
+		generated[i]=rand()%10000;
 	write(f, generated, ARRSIZE);
 	int *map = (int*)mmap(0, ARRSIZE, PROT_READ | PROT_WRITE, MAP_SHARED, f, 0);
 	//-----
@@ -97,7 +97,7 @@ int *preparememory()
 	}
 	//generate random values
 	for(int i=0; i<ARRLEN; i++)
-		map[i]=rand()%ARRLEN;
+		map[i]=rand()%10000;
 	//-----	
 
 	return map;
@@ -123,24 +123,33 @@ void mergeparts(int *numbers)
 	int counter=0; //number of elements already sorted
 	int sorted[ARRLEN]={0}; //new array of sorted elements
 	
+	
+	printf("Merging array:\n");
+	printarr(numbers, 0, ARRLEN);
 	//finally merge them...
-	while(counter<ARRLEN)
+	while(1)//or while(counter<=ARRLEN)
 	{
 		//find pointer with lowest value
 		int plowest=-1;
 		for(int i=0; i<CHILDCOUNT; i++)
 		{
-			if((i<CHILDCOUNT-1 && pointerinc[i]>=INTERVAL) || pointerinc[i]>=ARRLEN-CHILDCOUNT*INTERVAL) //this interval already exhausted
+			if((i<CHILDCOUNT-1 && pointerinc[i]>=INTERVAL) || pointerinc[i]>=ARRLEN-(CHILDCOUNT-1)*INTERVAL)
+			//this interval already exhausted
 				continue;
 			if(plowest==-1 || numbers[i*INTERVAL+pointerinc[i]]<numbers[plowest*INTERVAL+pointerinc[plowest]])
 			//first interval in iteration? pointer to lower value than detected so far? 
 				plowest=i;
 		}
-		if(plowest==-1) //obviously work is done now...
+		if(plowest==-1) //everything in place
 			break;
 
 		//add the lowest element into sorted array
 		sorted[counter]=numbers[plowest*INTERVAL+pointerinc[plowest]];
+		if(sorted[counter]==0)
+		{
+			printf("ZERO! counter=%d, plowest=%d, interval=%d, pointerinc[plowest]=%d\n", counter, plowest, INTERVAL, pointerinc[plowest]);
+			printf("numbers[plowest*INTERVAL+pointerinc[plowest]]=%d\n", numbers[plowest*INTERVAL+pointerinc[plowest]]);
+		}
 		pointerinc[plowest]++;
 		counter++;
 	}
@@ -156,7 +165,11 @@ int main(int argc, char **argv)
 	ARRLEN=atoi(argv[1]);
 	CHILDCOUNT=atoi(argv[2]);
 	ARRSIZE = ARRLEN*sizeof(int);
-	INTERVAL = ARRLEN/CHILDCOUNT; //only correct when ARRLEN divisible by CHILDCOUNT...
+	INTERVAL = ARRLEN/CHILDCOUNT; 
+	// if ARRLEN%CHILDCOUNT=0 then INTERVAL is accurate
+	//	else last child will take care of the remainders
+	// if ARRLEN<CHILDCOUNT then Last child to sort'em all
+
 
 	//randomize, prepare shared array of elements
 	srand((unsigned)time(NULL));
