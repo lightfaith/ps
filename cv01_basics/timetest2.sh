@@ -4,9 +4,10 @@
 size=32768 # number of ints to sort
 echo "Running ./sort for $size random numbers";
 
-for (( i=1; $i<=$size; i=i*2 )); do
+for (( i=64; $i<=256; i=i+1 )); do
 	# run ./sort for SIZE numbers and 2^n processes, measure real time
 	echo -n "$i processes: ";
 	t=`(time ./sort $size $i > /dev/null) 2>&1 | grep real | cut -d'	' -f2`;
+	sleep 0.05
 	echo "$t"
 done

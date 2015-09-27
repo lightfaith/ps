@@ -130,7 +130,7 @@ void mergeparts(int *numbers)
 		int plowest=-1;
 		for(int i=0; i<CHILDCOUNT; i++)
 		{
-			if(pointerinc[i]>=INTERVAL) //this interval has been already used till the end
+			if((i<CHILDCOUNT-1 && pointerinc[i]>=INTERVAL) || pointerinc[i]>=ARRLEN-CHILDCOUNT*INTERVAL) //this interval already exhausted
 				continue;
 			if(plowest==-1 || numbers[i*INTERVAL+pointerinc[i]]<numbers[plowest*INTERVAL+pointerinc[plowest]])
 			//first interval in iteration? pointer to lower value than detected so far? 
@@ -156,7 +156,7 @@ int main(int argc, char **argv)
 	ARRLEN=atoi(argv[1]);
 	CHILDCOUNT=atoi(argv[2]);
 	ARRSIZE = ARRLEN*sizeof(int);
-	INTERVAL = ARRLEN/CHILDCOUNT;
+	INTERVAL = ARRLEN/CHILDCOUNT; //only correct when ARRLEN divisible by CHILDCOUNT...
 
 	//randomize, prepare shared array of elements
 	srand((unsigned)time(NULL));

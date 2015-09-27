@@ -1,0 +1,17 @@
+Running ./sort of 32768 random numbers
+1 processes: 0m18.166s
+2 processes: 0m4.556s
+4 processes: 0m1.405s
+8 processes: 0m0.703s
+16 processes: 0m0.360s
+32 processes: 0m0.194s
+64 processes: 0m0.115s
+128 processes: 0m0.086s
+256 processes: 0m0.097s
+512 processes: 0m0.160s
+1024 processes: 0m0.302s
+2048 processes: 0m0.591s
+4096 processes: 0m1.166s
+8192 processes: 0m2.385s
+16384 processes: 0m4.414s
+32768 processes: 0m4.484s
