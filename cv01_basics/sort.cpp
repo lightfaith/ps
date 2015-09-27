@@ -81,7 +81,7 @@ int *preparememory()
 	int generated[ARRLEN]={1,1,1,1,1,0};
 	f = open(MEMFILE, O_RDWR | O_CREAT | O_TRUNC, (mode_t)0600);
 	for(int i=0; i<ARRLEN; i++)
-		generated[i]=rand()%10000;
+		generated[i]=rand()%1000000;
 	write(f, generated, ARRSIZE);
 	int *map = (int*)mmap(0, ARRSIZE, PROT_READ | PROT_WRITE, MAP_SHARED, f, 0);
 	//-----
@@ -97,7 +97,7 @@ int *preparememory()
 	}
 	//generate random values
 	for(int i=0; i<ARRLEN; i++)
-		map[i]=rand()%10000;
+		map[i]=rand()%1000000;
 	//-----	
 
 	return map;
