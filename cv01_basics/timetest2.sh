@@ -1,6 +1,8 @@
 #!/bin/bash
 # Shell script destined to simplify time measuring for different numbers of threads.
 
+lscpu | grep -i -E "^CPU\(s\):|core|socket" --color=no
+
 size=32768 # number of ints to sort
 echo "Running ./sort for $size random numbers";
 

@@ -97,7 +97,7 @@ int *preparememory()
 	}
 	//generate random values
 	for(int i=0; i<ARRLEN; i++)
-		map[i]=rand()%1000000;
+		map[i]=rand()%(ARRLEN*100);
 	//-----	
 
 	return map;
@@ -124,7 +124,8 @@ void mergeparts(int *numbers)
 	int sorted[ARRLEN]={0}; //new array of sorted elements
 	
 	
-	printf("Merging array:\n");
+	if(ARRLEN<=100)
+		printf("Merging array:\n");
 	printarr(numbers, 0, ARRLEN);
 	//finally merge them...
 	while(1)//or while(counter<=ARRLEN)
