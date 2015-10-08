@@ -1,0 +1,1140 @@
+Sorting 32768 elements in 1 parts sequentially
+.Parallelizable: 18049 ms.
+Total run time: 18056 ms.
+
+Sorting 32768 elements in 1 parts in parallel
+.Sorting 32768 elements in 1 parts in parallel
+.Parallelizable: 18095 ms.
+Total run time: 18101 ms.
+
+Sorting 32768 elements in 3 parts sequentially
+.Parallelizable: 6074 ms.
+Total run time: 6083 ms.
+
+Sorting 32768 elements in 3 parts in parallel
+.Sorting 32768 elements in 3 parts in parallel
+.Sorting 32768 elements in 3 parts in parallel
+.Sorting 32768 elements in 3 parts in parallel
+.Parallelizable: 2360 ms.
+Total run time: 2379 ms.
+
+Sorting 32768 elements in 5 parts sequentially
+.Parallelizable: 3630 ms.
+Total run time: 3643 ms.
+
+Sorting 32768 elements in 5 parts in parallel
+.Sorting 32768 elements in 5 parts in parallel
+.Sorting 32768 elements in 5 parts in parallel
+.Sorting 32768 elements in 5 parts in parallel
+.Sorting 32768 elements in 5 parts in parallel
+.Sorting 32768 elements in 5 parts in parallel
+.Parallelizable: 1273 ms.
+Total run time: 1287 ms.
+
+Sorting 32768 elements in 7 parts sequentially
+.Parallelizable: 2610 ms.
+Total run time: 2628 ms.
+
+Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Sorting 32768 elements in 7 parts in parallel
+.Parallelizable: 864 ms.
+Total run time: 885 ms.
+
+Sorting 32768 elements in 9 parts sequentially
+.Parallelizable: 2018 ms.
+Total run time: 2040 ms.
+
+Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Sorting 32768 elements in 9 parts in parallel
+.Parallelizable: 632 ms.
+Total run time: 666 ms.
+
+Sorting 32768 elements in 11 parts sequentially
+.Parallelizable: 1657 ms.
+Total run time: 1681 ms.
+
+Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Sorting 32768 elements in 11 parts in parallel
+.Parallelizable: 583 ms.
+Total run time: 607 ms.
+
+Sorting 32768 elements in 13 parts sequentially
+.Parallelizable: 1435 ms.
+Total run time: 1463 ms.
+
+Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Sorting 32768 elements in 13 parts in parallel
+.Parallelizable: 472 ms.
+Total run time: 503 ms.
+
+Sorting 32768 elements in 15 parts sequentially
+.Parallelizable: 1211 ms.
+Total run time: 1241 ms.
+
+Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Sorting 32768 elements in 15 parts in parallel
+.Parallelizable: 378 ms.
+Total run time: 412 ms.
+
+Sorting 32768 elements in 17 parts sequentially
+.Parallelizable: 1068 ms.
+Total run time: 1102 ms.
+
+Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Sorting 32768 elements in 17 parts in parallel
+.Parallelizable: 362 ms.
+Total run time: 399 ms.
+
+Sorting 32768 elements in 19 parts sequentially
+.Parallelizable: 954 ms.
+Total run time: 992 ms.
+
+Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Sorting 32768 elements in 19 parts in parallel
+.Parallelizable: 298 ms.
+Total run time: 334 ms.
+
+Sorting 32768 elements in 21 parts sequentially
+.Parallelizable: 866 ms.
+Total run time: 906 ms.
+
+Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Sorting 32768 elements in 21 parts in parallel
+.Parallelizable: 291 ms.
+Total run time: 333 ms.
+
+Sorting 32768 elements in 23 parts sequentially
+.Parallelizable: 783 ms.
+Total run time: 826 ms.
+
+Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Sorting 32768 elements in 23 parts in parallel
+.Parallelizable: 254 ms.
+Total run time: 299 ms.
+
+Sorting 32768 elements in 25 parts sequentially
+.Parallelizable: 722 ms.
+Total run time: 768 ms.
+
+Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Sorting 32768 elements in 25 parts in parallel
+.Parallelizable: 245 ms.
+Total run time: 291 ms.
+
+Sorting 32768 elements in 27 parts sequentially
+.Parallelizable: 671 ms.
+Total run time: 723 ms.
+
+Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Sorting 32768 elements in 27 parts in parallel
+.Parallelizable: 226 ms.
+Total run time: 279 ms.
+
+Sorting 32768 elements in 29 parts sequentially
+.Parallelizable: 621 ms.
+Total run time: 674 ms.
+
+Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Sorting 32768 elements in 29 parts in parallel
+.Parallelizable: 207 ms.
+Total run time: 260 ms.
+
+Sorting 32768 elements in 31 parts sequentially
+.Parallelizable: 577 ms.
+Total run time: 633 ms.
+
+Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Sorting 32768 elements in 31 parts in parallel
+.Parallelizable: 198 ms.
+Total run time: 255 ms.
+
+Sorting 32768 elements in 33 parts sequentially
+.Parallelizable: 550 ms.
+Total run time: 608 ms.
+
+Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Sorting 32768 elements in 33 parts in parallel
+.Parallelizable: 176 ms.
+Total run time: 235 ms.
+
+Sorting 32768 elements in 35 parts sequentially
+.Parallelizable: 512 ms.
+Total run time: 574 ms.
+
+Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Sorting 32768 elements in 35 parts in parallel
+.Parallelizable: 168 ms.
+Total run time: 229 ms.
+
+Sorting 32768 elements in 37 parts sequentially
+.Parallelizable: 485 ms.
+Total run time: 549 ms.
+
+Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Sorting 32768 elements in 37 parts in parallel
+.Parallelizable: 162 ms.
+Total run time: 226 ms.
+
+Sorting 32768 elements in 39 parts sequentially
+.Parallelizable: 461 ms.
+Total run time: 528 ms.
+
+Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Sorting 32768 elements in 39 parts in parallel
+.Parallelizable: 151 ms.
+Total run time: 218 ms.
+
+Sorting 32768 elements in 41 parts sequentially
+.Parallelizable: 435 ms.
+Total run time: 505 ms.
+
+Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Sorting 32768 elements in 41 parts in parallel
+.Parallelizable: 147 ms.
+Total run time: 218 ms.
+
+Sorting 32768 elements in 43 parts sequentially
+.Parallelizable: 417 ms.
+Total run time: 494 ms.
+
+Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Sorting 32768 elements in 43 parts in parallel
+.Parallelizable: 140 ms.
+Total run time: 214 ms.
+
+Sorting 32768 elements in 45 parts sequentially
+.Parallelizable: 398 ms.
+Total run time: 476 ms.
+
+Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Sorting 32768 elements in 45 parts in parallel
+.Parallelizable: 135 ms.
+Total run time: 212 ms.
+
+Sorting 32768 elements in 47 parts sequentially
+.Parallelizable: 381 ms.
+Total run time: 460 ms.
+
+Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Sorting 32768 elements in 47 parts in parallel
+.Parallelizable: 133 ms.
+Total run time: 212 ms.
+
+Sorting 32768 elements in 49 parts sequentially
+.Parallelizable: 365 ms.
+Total run time: 447 ms.
+
+Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Sorting 32768 elements in 49 parts in parallel
+.Parallelizable: 125 ms.
+Total run time: 207 ms.
+
+Sorting 32768 elements in 51 parts sequentially
+.Parallelizable: 351 ms.
+Total run time: 436 ms.
+
+Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Sorting 32768 elements in 51 parts in parallel
+.Parallelizable: 123 ms.
+Total run time: 208 ms.
+
+Sorting 32768 elements in 53 parts sequentially
+.Parallelizable: 339 ms.
+Total run time: 427 ms.
+
+Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Sorting 32768 elements in 53 parts in parallel
+.Parallelizable: 119 ms.
+Total run time: 207 ms.
+
+Sorting 32768 elements in 55 parts sequentially
+.Parallelizable: 324 ms.
+Total run time: 415 ms.
+
+Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Sorting 32768 elements in 55 parts in parallel
+.Parallelizable: 115 ms.
+Total run time: 207 ms.
+
+Sorting 32768 elements in 57 parts sequentially
+.Parallelizable: 313 ms.
+Total run time: 407 ms.
+
+Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Sorting 32768 elements in 57 parts in parallel
+.Parallelizable: 111 ms.
+Total run time: 205 ms.
+
+Sorting 32768 elements in 59 parts sequentially
+.Parallelizable: 304 ms.
+Total run time: 403 ms.
+
+Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Sorting 32768 elements in 59 parts in parallel
+.Parallelizable: 109 ms.
+Total run time: 206 ms.
+

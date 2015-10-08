@@ -1,0 +1,118 @@
+execve("./sort", ["./sort", "100", "12", "1"], [/* 37 vars */]) = 0
+brk(0)                                  = 0x8e57000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb773e000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=91795, ...}) = 0
+mmap2(NULL, 91795, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7727000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360i\4\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=963316, ...}) = 0
+mmap2(NULL, 989360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7635000
+mmap2(0xb771b000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe6000) = 0xb771b000
+mmap2(0xb7720000, 26800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7720000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/i686/cmov/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0F\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=280108, ...}) = 0
+mmap2(NULL, 282784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75ef000
+mmap2(0xb7633000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x43000) = 0xb7633000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240 \0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=114964, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb75ee000
+mmap2(NULL, 118164, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75d1000
+mmap2(0xb75ed000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0xb75ed000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/i686/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300\233\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1738492, ...}) = 0
+mmap2(NULL, 1743484, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7427000
+mmap2(0xb75cb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a4000) = 0xb75cb000
+mmap2(0xb75ce000, 10876, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb75ce000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7426000
+set_thread_area({entry_number:-1, base_addr:0xb7426940, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0 (entry_number:6)
+mprotect(0xb75cb000, 8192, PROT_READ)   = 0
+mprotect(0xb7633000, 4096, PROT_READ)   = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7425000
+mprotect(0xb771b000, 16384, PROT_READ)  = 0
+mprotect(0xb7762000, 4096, PROT_READ)   = 0
+munmap(0xb7727000, 91795)               = 0
+gettimeofday({1443693624, 374444}, NULL) = 0
+fstat64(1, {st_mode=S_IFREG|0644, st_size=3677, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb773d000
+time(NULL)                              = 1443693624
+mmap2(NULL, 400, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0) = 0xb773c000
+gettimeofday({1443693624, 375500}, NULL) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11062
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11063
+Sorting 100 elements in 12 parts in parallel
+.clone(Sorting 100 elements in 12 parts in parallel
+.child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11064
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11062, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11063, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+Sorting 100 elements in 12 parts in parallel
+.clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11066
+clone(Sorting 100 elements in 12 parts in parallel
+.child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11064, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11066, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11069
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11070
+clone(Sorting 100 elements in 12 parts in parallel
+.child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11071
+Sorting 100 elements in 12 parts in parallel
+.clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11072
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11070, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11069, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(Sorting 100 elements in 12 parts in parallel
+.child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11073
+clone(Sorting 100 elements in 12 parts in parallel
+.child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11072, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11071, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11076
+Sorting 100 elements in 12 parts in parallel
+.clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11077
+Sorting 100 elements in 12 parts in parallel
+.--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11073, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = ? ERESTARTNOINTR (To be restarted)
+Sorting 100 elements in 12 parts in parallel
+.--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11076, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb74269a8) = 11079
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11077, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11062
+wait4(-1, Sorting 100 elements in 12 parts in parallel
+.[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11063
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11064
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11066
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11079, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11069
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11070
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11071
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11072
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11073
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11076
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11077
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11079
+gettimeofday({1443693624, 387497}, NULL) = 0
+munmap(0xb773c000, 400)                 = 0
+gettimeofday({1443693624, 387845}, NULL) = 0
+write(1, "Sorting 100 elements in 12 parts"..., 93Sorting 100 elements in 12 parts in parallel
+.Parallelizable: 12 ms.
+Total run time: 13 ms.
+
+) = 93
+exit_group(0)                           = ?
++++ exited with 0 +++
