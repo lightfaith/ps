@@ -17,27 +17,22 @@
 
 // Demo kernel for array elements multiplication.
 // Every thread selects one element and multiply it. 
-__global__ void kernel_mult( float *pole, int L)
+__global__ void kernel_mult( float *pole, int L, int inc)
 {
 	// No 2 swapping in one kernel (collisions), rather run 2 kernels in loop below...
 	int l = blockDim.x * blockIdx.x + threadIdx.x;
 	if(l%2==1)
 		return;
 	// if grid is greater then length of array...
-	if (l>=L-1) return;
+	int border = (L-1-inc);
+
+	if (l>=border) return;
 	float tmp;
-	if(pole[l]>pole[l+1])
+	if(pole[l+inc]>pole[l+1+inc])
 	{
-		tmp=pole[l];
-		pole[l]=pole[l+1];
-		pole[l+1]=tmp;
-	}
-	if(l>=L-2) return;
-	if(pole[l+1]>pole[l+2])
-	{
-		tmp=pole[l+1];
-		pole[l+1]=pole[l+2];
-		pole[l+2]=tmp;
+		tmp=pole[l+inc];
+		pole[l+inc]=pole[l+1+inc];
+		pole[l+1+inc]=tmp;
 	}
 }
 
@@ -61,8 +56,10 @@ void bsort( float *P, int Length)
 
 	// Grid creation
 	for(int i=0;i<Length; i++)
-	// here run kernel twice
-		kernel_mult<<< blocks, threads >>>(cudaP, Length);
+	{
+		kernel_mult<<< blocks, threads >>>(cudaP, Length, 0);
+		kernel_mult<<< blocks, threads >>>(cudaP, Length, 1);
+	}
 
 	if ( ( cerr = cudaGetLastError() ) != cudaSuccess )
 		printf( "CUDA Error [%d] - '%s'\n", __LINE__, cudaGetErrorString( cerr ) );
