@@ -14,7 +14,7 @@
 #include<stdlib.h>
 #include<unistd.h>
 #include<string.h>
-
+//#define DEBUG
 // Function prototype from .cu file
 void bsort( float *arr1, int L);
 
@@ -33,14 +33,22 @@ int main(int argc, char **argv)
 	prvky = new float[N];
 	//OCfloat prvky[ N ];
 	for ( unsigned int i = 0; i < N; i++ )
-		prvky[ i ] = ( float ) (N-i/1000.0);
+		prvky[ i ] = ( float ) ((N-i)/1000.0);
 
+	#ifdef DEBUG
+	for ( int i = 0; i < N; i++ )
+		printf( "%8.3f\n", prvky[ i ] );
+	printf("--------------------------\nSorting...\n");
+	#endif
 	
 	bsort(prvky, N);
 	
 	// Print result
+	#ifdef DEBUG
 	for ( int i = 0; i < N; i++ )
 		printf( "%8.3f\n", prvky[ i ] );
+	#endif
+
 	printf("Done!\n");
 	return 0;
 }

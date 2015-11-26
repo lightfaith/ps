@@ -55,7 +55,7 @@ void bsort( float *P, int Length)
 		printf( "CUDA Error [%d] - '%s'\n", __LINE__, cudaGetErrorString( cerr ) );	
 
 	// Grid creation
-	for(int i=0;i<Length; i++)
+	for(int i=0;i<Length/2; i++)
 	{
 		kernel_mult<<< blocks, threads >>>(cudaP, Length, 0);
 		kernel_mult<<< blocks, threads >>>(cudaP, Length, 1);
